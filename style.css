@@ -101,3 +101,32 @@ ul {
     text-align: center;
     max-width: 200px;
 }
+
+/*Quote section*/
+
+.quote {
+    background: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 125px 125px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    margin: 0;
+    width: 700px;
+}
+
+.quote p em {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    width: 700px;
+    text-align: end;
+    font-weight: bold;
+}
