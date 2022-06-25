@@ -9,7 +9,7 @@ body {
 
 .hero {
     background: #1F2937;
-    padding: 25px 200px 150px;
+    padding: 25px 200px 100px;
 }
 
 .header {
@@ -65,4 +65,39 @@ ul {
 .image img {
     height: 250px;
     width: 600px;
+}
+
+/* Team section */
+
+.team-section {
+    background: #F9FAF8;
+    padding: 25px 200px 100px;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.member img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px; 
+}
+
+.member {
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    max-width: 200px;
 }
