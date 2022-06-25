@@ -172,3 +172,14 @@ ul {
     border-radius: 5px;
     font-weight: bold;
 }
+
+/*Footer section*/
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
